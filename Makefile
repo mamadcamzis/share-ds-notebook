@@ -11,6 +11,7 @@ format:
 run:
 	jupyter nbconvert --execute --to notebook --inplace my_collab_notebook.ipynb
 	python get_url_data.py
+	python dask_kmeans.py
 
 
 lint:
